@@ -1,6 +1,10 @@
 # Hyprland Config
 Hyprland Tiling Window Manager Config
 
+## Login Manager
+
+- sddm-git (from AUR)
+
 ## Stuff to install
 
 ```bash
