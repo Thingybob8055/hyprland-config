@@ -17,3 +17,7 @@ waybar-hyprland wlogout swaylock-effects sddm-git pamixer     \
 nwg-look-bin nordic-theme papirus-icon-theme dunst            \
 ttf-nerd-fonts-symbols-common otf-firamono-nerd
 ```
+
+#To-do after install
+
+- TLP
