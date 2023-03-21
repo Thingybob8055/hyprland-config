@@ -15,7 +15,8 @@ swaybg grimblast-git ffmpegthumbnailer tumbler playerctl      \
 noise-suppression-for-voice thunar-archive-plugin kitty       \
 waybar-hyprland wlogout swaylock-effects sddm-git pamixer     \
 nwg-look-bin nordic-theme papirus-icon-theme dunst            \
-ttf-nerd-fonts-symbols-common otf-firamono-nerd
+ttf-nerd-fonts-symbols-common otf-firamono-nerd               \
+xdg-desktop-portal brightnessctl xbindkeys
 ```
 
 ## To-do after install
