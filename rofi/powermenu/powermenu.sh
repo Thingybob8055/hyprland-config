@@ -47,8 +47,8 @@ case $chosen in
 			systemctl reboot
         ;;
     $lock)
-		if [[ -f /usr/bin/i3lock ]]; then
-			i3lock
+		if [[ -f /usr/bin/swaylock ]]; then
+			swaylock
 		elif [[ -f /usr/bin/betterlockscreen ]]; then
 			betterlockscreen -l
 		fi
