@@ -1,6 +1,8 @@
 # Hyprland Config
 Hyprland Tiling Window Manager Config
 
+**Install `yay` first**
+
 ## Login Manager
 
 - sddm-git (from AUR)
