@@ -23,7 +23,10 @@
     ],
 
     "hyprland/window": {
-        "format": "{}"
+        "format": "{}",
+	"rewrite": {
+        "": "<span color='#6a92d7'> Desktop</span>"
+      }
     },
     "wlr/workspaces": {
         "disable-scroll": true,
