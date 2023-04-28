@@ -31,7 +31,7 @@ udiskie fuse2 catppuccin-gtk-theme-mocha
 ```
 
 ## To-do after install
-
+- run `pip install requests` so that the weather waybar module works
 - Install flatpak
 - TLP or auto-cpufreq
 - CPU power gui or TLPui
