@@ -27,7 +27,7 @@ btop pavucontrol wl-clipboard swaync playerctl mpv mpv-mpris wofi visual-studio-
 qt5ct qt5-styleplugins xorg-xhost alacritty wdisplays snapper snap-pac grub-btrfs python-pip\
 gtk2 gtk3 gtk4 nordzy-cursors ttf-meslo-nerd-font-powerlevel10k \
 gnome-keyring libsecret network-manager-applet file-roller waybar-module-pacman-updates-git \
-udiskie
+udiskie fuse2 catppuccin-gtk-theme-mocha
 ```
 
 ## To-do after install
@@ -40,4 +40,7 @@ udiskie
     - `QT_QPA_PLATFORMTHEME=qt5ct`
     - `QT_QPA_PLATFORMTHEME="qt5ct"`
 - The above may work as `export` in `~/.profile`
+
+#TODO
+- bash script to automate all this
 
