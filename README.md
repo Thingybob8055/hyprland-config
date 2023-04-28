@@ -41,10 +41,9 @@ udiskie fuse2 catppuccin-gtk-theme-mocha
     - `QT_QPA_PLATFORMTHEME="qt5ct"`
 - The above may work as `export` in `~/.profile`
 
-# TODO
-- bash script to automate all this
-
-
 # Screenshot
 
 ![Hyprland Screenshot](.scripts/screenshot1.png)
+
+# TODO
+- bash script to automate all this
