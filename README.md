@@ -32,14 +32,16 @@ udiskie fuse2 catppuccin-gtk-theme-mocha
 
 ## To-do after install
 
+- Install flatpak
 - TLP or auto-cpufreq
-- CPU power gui
+- CPU power gui or TLPui
 - Choose a GTK theme like Kripton, Catppuccin, install it and make a copy in `~/.themes`
     - Use lxapperance to set the GTK theme
 - To `etc/environment` add:
     - `QT_QPA_PLATFORMTHEME=qt5ct`
     - `QT_QPA_PLATFORMTHEME="qt5ct"`
 - The above may work as `export` in `~/.profile`
+- Use flatpak command line or Flatseal app to allow access to `~/.themes` folder to use GTK theme. May need to set `GTK_THEME` env variable to the appropriate theme folder name in `~/.themes`
 
 # Screenshot
 
