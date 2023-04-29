@@ -37,11 +37,22 @@ udiskie fuse2 catppuccin-gtk-theme-mocha
 - CPU power gui or TLPui
 - Choose a GTK theme like Kripton, Catppuccin, install it and make a copy in `~/.themes`
     - Use lxapperance to set the GTK theme
+- Choose a cursor theme and install it and make a copy in ~/.icons
+    - In Flatseal make an env variable and set `XCURSOR_PATH`: `XCURSOR_PATH=/home/akashg/.icons'
+    - Give access to `/home/$USER/.icons` 
 - To `etc/environment` add:
     - `QT_QPA_PLATFORMTHEME=qt5ct`
     - `QT_QPA_PLATFORMTHEME="qt5ct"`
 - The above may work as `export` in `~/.profile`
 - Use flatpak command line or Flatseal app to allow access to `~/.themes` folder to use GTK theme. May need to set `GTK_THEME` env variable to the appropriate theme folder name in `~/.themes`
+- Run `xhost si:localuser:root`
+- Setup btrfs using the following guide: https://www.youtube.com/watch?v=_97JOyC1o2o
+- `systemctl enable bluetooth.service` and `systemctl start bluetooth.service`
+- Edit `sleep-monitor.sh` and `hypr.conf` found in your `~/.config/hypr/` folder to system resolution
+- install `oh-my-zsh` framework
+- `systemctl enable sddm.service` and `systemctl start sddm.service` to enable sddm
+- To open alacritty termimal through Thunar: find and edit file in `~/.config/thunar/uca.xml`:
+    - In terminal <command> section add `alacritty –working-directory %f`
 
 # Screenshot
 
